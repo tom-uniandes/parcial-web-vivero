@@ -1,4 +1,4 @@
-export class Plantas {
+export class Planta {
   id: number;
   nombre_comun: string;
   tipo: string;
