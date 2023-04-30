@@ -9,7 +9,7 @@
     <div class="col-8">
       <table class="table">
         <thead class="table-dark">
-          <tr>
+          <tr class="encabezado-tabla">
             <th scope="col">#</th>
             <th scope="col">Nombre común</th>
             <th scope="col">Tipo</th>
@@ -17,7 +17,7 @@
           </tr>
         </thead>
         <tbody>
-          <tr *ngFor="let planta of plantas">
+          <tr class="lista-plantas" *ngFor="let planta of plantas">
             <th scope="row">{{planta.id}}</th>
             <td>{{planta.nombre_comun}}</td>
             <td>{{planta.tipo}}</td>
