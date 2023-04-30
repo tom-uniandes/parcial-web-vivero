@@ -1,0 +1,19 @@
+.title-vivero {
+  font-family: 'Kaisei Decol';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 52px;
+}
+
+img {
+  height: auto;
+  width: 100%;
+}
+
+.total-plantas {
+  margin-bottom: 6%;
+}
+
+
+
