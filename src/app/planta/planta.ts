@@ -4,7 +4,6 @@ export class Planta {
   tipo: string;
   clima: string
 
-
   constructor(
     id: number,
     nombre_comun: string,
